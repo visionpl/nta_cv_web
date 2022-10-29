@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Ubuntu:wght@400;500&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #313131;
+}
+
+h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+}
+
+.about_me,
+.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.about_me img {
+  width: 65%;
+  height: auto;
+  border-radius: 50%;
+  background-color: #fff;
+  padding: 10px;
+  -webkit-box-shadow: 5px 26px 48px -28px rgba(183, 183, 183, 1);
+  -moz-box-shadow: 5px 26px 48px -28px rgba(183, 183, 183, 1);
+  box-shadow: 5px 26px 48px -28px rgba(183, 183, 183, 1);
+}
+
+.btn_cv {
+  padding: 10px 25px;
+  font-size: 16px;
+  border-radius: 40px;
+
+  background: rgb(62, 100, 255);
+  background: linear-gradient(
+    20deg,
+    rgba(62, 100, 255, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  border: 0;
+  color: #fff;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+}
+
+.btn_cv:hover {
+  box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
+  -webkit-moz-transform: translate(0px, -10px) scale(1.2);
+  transform: translate(0px, -10px) scale(1.2);
+}
+
+.btn_contact {
+  padding: 10px 25px;
+  font-size: 16px;
+  border-radius: 40px;
+  background: transparent;
+  border: 1px solid;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+}
+
+.btn_contact:hover {
+  background: rgb(62, 100, 255);
+  background: linear-gradient(
+    20deg,
+    rgba(62, 100, 255, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: #fff;
+  box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
+  -webkit-moz-transform: translate(0px, -10px) scale(1.2);
+  transform: translate(0px, -10px) scale(1.2);
+}
+
+.progress-bar {
+  background: linear-gradient(
+    20deg,
+    rgba(62, 100, 255, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+h2.box_title {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+.left_box {
+  margin: 20px 0;
+  border-bottom: 1px solid #e9ecef;
+  position: relative;
+
+  padding: 5px 20px 5px 20px;
+}
+
+.box_icon {
+  position: absolute;
+  display: block;
+  color: rgba(0, 212, 255, 1);
+  font-size: 30px;
+  top: 0px;
+
+  right: 30px;
+}
+.lang_badge {
+  border: solid 1px rgba(183, 183, 183, 1);
+  padding: 4px 10px;
+  color: #313131;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+}
+.intrested {
+  margin-left: -25px;
+}
+.intrested ul li {
+  display: inline-flex;
+  border: solid 1px rgba(183, 183, 183, 1);
+  padding: 5px 10px;
+  margin: 2px;
+  border-radius: 5px;
+}
+
+.right_box {
+  margin: 20px 0;
+  position: relative;
+
+  padding: 5px 20px 5px 20px;
+}
+
+footer {
+  padding: 20px;
+  margin: 10px 0;
+}
+
+.resume ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.resume ul:before {
+  content: "";
+  display: inline-block;
+  width: 2px;
+  background: rgba(0, 212, 255, 1);
+  position: absolute;
+  left: 2px;
+  top: 5px;
+  height: calc(100% - 10px);
+}
+.resume ul li {
+  position: relative;
+  padding-left: 50px;
+  padding-bottom: 30px;
+  margin-bottom: 15px;
+}
+.resume ul li:before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background: rgba(62, 100, 255, 1);
+  position: absolute;
+  left: 0;
+  top: 5px;
+  border-radius: 10px;
+}
+
+.badge_fact {
+  background: rgba(0, 212, 255, 1);
+}
+
+.contact {
+  background: linear-gradient(
+    20deg,
+    rgba(62, 100, 255, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  padding: 50px 0;
+  color: #fff;
+}
+
+.contact a:link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact a:active {
+  color: #fff;
+  text-decoration: none;
+}
+
+.sm_contact i {
+  font-size: 25px;
+  margin: 15px;
+}
+
+#scrollTop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 18px;
+  border: 1px solid rgba(183, 183, 183, 1);
+  border-radius: 40px;
+  background-color: transparent;
+  color: rgba(183, 183, 183, 1);
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+#scrollTop:hover {
+  background-color: #fff;
+}
+
+@media screen and (max-width: 992px) {
+  .about_me {
+    flex-direction: column;
+  }
+}
